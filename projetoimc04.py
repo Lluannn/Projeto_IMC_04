@@ -31,4 +31,5 @@ except KeyboardInterrupt:
 
 with open ("cadastro_imc.txt",  "a") as arquivo:
     arquivo.write(f"Nome: {nome_do_paciente} \nIMC: {imc:.2f}")
-    arquivo.write("\n-------------------------------------")
+    arquivo.write("\n@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
+
